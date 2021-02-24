@@ -1,0 +1,191 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    max-width: 1516px;
+    margin: 0 auto;
+}
+.container__eac{
+    padding-top: 50px;
+    padding-bottom: 22px;
+    .block__logo{
+        text-align: center;
+    }
+    .container__all{
+        margin-top: 95px;
+            .container__form{
+            display: flex;
+            justify-content: space-between;
+            .col__form{
+            
+                // width: 50%;
+                h2{
+                    font-weight: 300;
+                    font-size: 64px;
+                    color:rgba(20, 55, 220, 1);
+                    span{
+                        color: linear-gradient(270deg, #1B7F93 0%, #1437DC 100%);
+                        font-weight: 600;
+                    }
+                }
+                p{
+                    margin-top: 3px;
+                    max-width: 600px;
+                    font-size: 24px;
+                    color: #2E2E2E;
+                }
+                .block__form{
+                    margin-top: 44px;
+                    
+                    
+                    max-width: 580px;
+                    
+                    background: #ffff;
+                    box-shadow: 0px 4px 40px rgba(27, 125, 147, 0.1);
+                    form{
+                        
+                        padding: 73px 84px 29px 96px;
+                        .inner__form{
+                            max-width: 390px;
+                            margin: 0 auto;
+                            .row.row__first{
+                                margin-top: 0;
+                                input{
+                                    
+                                    margin-left: 10px;
+                                    &:nth-child(1){
+                                        margin-left: 0;
+                                        
+                                    }
+                                }
+                                #date{
+                                    max-width: 60px;
+                                    
+                                }
+                                #fname{
+                                    max-width: 125px;
+                                }
+                                #lname{
+                                    max-width: 186px;
+                                }
+                            }
+                            .row{
+                                margin-top: 35px;
+                                display: flex;
+                                
+                                input{
+                                    
+                                    width: 100%;
+                                    padding-top: 10px;
+                                    padding-bottom: 13px;
+                                    outline: none;
+                                    border: transparent;
+                                    
+                                    border-bottom: 1px solid rgba(46, 46, 46, 0.4);
+                                    &::placeholder{
+                                        color: #2e2e2ed9;
+                                        font-size: 18px;
+                                        text-align: center;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                            }
+                            .container__checkbox{
+                                
+                                display: flex;
+                                align-items: center;
+                                max-width: 360px;
+                                margin: 40px auto;
+                                
+                                .col{
+                                    p{
+                                        color: #2E2E2E;
+                                        margin-top: 0;
+                                        margin-left: 10px;
+                                        font-size: 18px;
+                                        span{
+                                            color: #2E2E2E;
+                                            font-weight: 700;
+                                        }
+                                    }
+                                }
+                            }
+                            .btn__register{
+                                outline: none;
+                                background: linear-gradient(90deg, #1334DE 0%, #1B7F93 100%);
+                                border-radius: 29px;
+                                min-width: 250px;
+                                min-height: 60px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin: 0 auto;
+                                border: none;
+                                span{
+                                    font-size: 24px;
+                                    color: white;
+                                }
+                            }
+                            .block__or{
+                                margin: 25px 0 25px 0;
+                                text-align: center;
+                                p{
+                                    font-size: 18px;
+                                }
+                            }
+                            .container__social{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                button{
+                                    color: #2E2E2E;
+                                    font-size: 16px;
+                                    background: transparent;
+                                    outline: none;
+                                    height: 46px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border: 1px solid rgba(175, 175, 175, 0.5);
+                                    margin-left: 11px;
+                                    &:nth-child(1){
+                                        margin-left: 0;
+                                    }
+                                    
+                            }
+                            button.xing{
+                                width: 193px;
+                                svg{
+                                    margin-right: 5px;
+                                }
+                            }
+                            button.linkedin{
+                                width: 234px;
+                                svg{
+                                    margin-right: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+        .info{
+            color: #2E2E2E;
+        }
+    }
+}
+  
+}
