@@ -2,6 +2,14 @@
     margin: 0 ;
     padding: 0;
 }
+::-webkit-calendar-picker-indicator{
+    background: url(../img/icon_input-date.png);
+    background-repeat: no-repeat;
+     background-position: center;
+
+
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -9,9 +17,29 @@ button{
     cursor: pointer;
 }
 .container{
-    max-width: 1516px;
+    max-width: 1650px;
     margin: 0 auto;
 }
+.btn__register{
+    outline: none;
+    background: linear-gradient(90deg, #1334DE 0%, #1B7F93 100%);
+    border-radius: 29px;
+    max-width: 250px;
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: none;
+    span{
+        font-size: 24px;
+        color: white;
+    }
+}
+.wrapper__top-form--inner{
+                        display: none;
+                    }
 .container__eac{
     padding-top: 50px;
     padding-bottom: 22px;
@@ -19,8 +47,11 @@ button{
         text-align: center;
     }
     .container__all{
+        padding-left: 70px;
+        
+    //    position: relative;
         margin-top: 95px;
-            .container__form{
+        .container__form{
             display: flex;
             justify-content: space-between;
             .col__form{
@@ -28,10 +59,14 @@ button{
                 // width: 50%;
                 h2{
                     font-weight: 300;
-                    font-size: 64px;
+                    
                     color:rgba(20, 55, 220, 1);
+                    font-size: 3.5vw;
                     span{
-                        color: linear-gradient(270deg, #1B7F93 0%, #1437DC 100%);
+                        background: -webkit-linear-gradient(270deg, #1B7F93 30%, #1437DC 100%);
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+
                         font-weight: 600;
                     }
                 }
@@ -49,6 +84,7 @@ button{
                     
                     background: #ffff;
                     box-shadow: 0px 4px 40px rgba(27, 125, 147, 0.1);
+                    
                     form{
                         
                         padding: 73px 84px 29px 96px;
@@ -65,8 +101,24 @@ button{
                                         
                                     }
                                 }
-                                #date{
-                                    max-width: 60px;
+                                select{
+                                    outline: none;
+                                    width: 60px;
+                                    border-bottom: 1px solid rgba(46, 46, 46, 0.4);
+                                    border-left: none;
+                                    border-right: none;
+                                    border-top: none;
+                                    padding-left: 10px;
+                                        font-family: 'Roboto', sans-serif;
+                                    font-size: 18px;
+                                    color: #2e2e2ed9;
+                                     background: url(../img/icon_input-date.png);
+                                     background-repeat: no-repeat;
+                                    background-position: right;
+                                        -webkit-appearance: none;
+
+
+
                                     
                                 }
                                 #fname{
@@ -117,22 +169,7 @@ button{
                                     }
                                 }
                             }
-                            .btn__register{
-                                outline: none;
-                                background: linear-gradient(90deg, #1334DE 0%, #1B7F93 100%);
-                                border-radius: 29px;
-                                min-width: 250px;
-                                min-height: 60px;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                margin: 0 auto;
-                                border: none;
-                                span{
-                                    font-size: 24px;
-                                    color: white;
-                                }
-                            }
+                            
                             .block__or{
                                 margin: 25px 0 25px 0;
                                 text-align: center;
@@ -176,9 +213,26 @@ button{
                     }
                 }
             }
+            &:nth-child(2){
+                
+                
+                svg{
+                    
+                    max-width: 100%;
+                }
+            }
+        }
+        .col__form.hand{
+            svg{
+                position: absolute;
+                right: 0;
+                z-index: -1;
+            }
         }
     }
     .copyright{
+        
+        padding-right: 70px;
         margin-top: 45px;
         display: flex;
         justify-content: space-between;
@@ -188,4 +242,149 @@ button{
     }
 }
   
+}
+
+// finish__form
+.block__form.block__form-finish{
+    margin-top: 44px;
+                    
+                    
+                    max-width: 580px;
+                    
+                    background: #ffff;
+                    box-shadow: 0px 4px 40px rgba(27, 125, 147, 0.1);
+    .finish__form{
+    padding-top: 108px;
+    padding-bottom: 210px;
+    .img__heart{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .registering{
+        p{
+              background: -webkit-linear-gradient(270deg, #1B7F93 10%, #1437DC 100%);
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                          font-weight: 800;
+                          font-size: 24px;
+                          text-align: center;
+        }
+        
+    }
+    .subtitle{
+            text-align: center;
+            max-width: 480px;
+            margin: 25px auto;
+            font-size: 18px;
+        
+            color: #2e2e2ede;
+
+        }
+}
+}
+
+// finish__form
+
+// regulation
+.container__all.regulation{
+    padding-right: 30px;
+}
+.col__form.regulation{
+    width: 100%;
+    
+}
+.copyright.regulation{
+        padding-right: 0px!important;
+    }
+.block__form.regulation{
+    margin-bottom: 290px;
+    max-width: 1700px!important;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    form.regulation{
+        padding: 0px 87px 0 87px!important;
+        
+        .wrapper{
+            margin: auto;
+            max-width: 530px;
+            input{
+                padding-top: 80px;
+                max-width: 530px;
+            }
+        }
+        input{
+            padding: 20px 0 20px 0;
+            width: 100%;
+           outline: none;
+            
+            border: transparent;
+            border-bottom: 1px solid rgba(19, 53, 222, 0.435);
+            &::placeholder{
+                text-align: center;
+                font-size: 24px;
+                color: #2e2e2ed0;
+                
+            }
+            
+        }
+    }
+    .btn__register.regulation{
+        margin-top: 46px;
+    }
+}
+// regulation
+
+
+// regulation-finish
+.block__form.regulation.finish{
+    margin-bottom: 64px;
+    
+}
+.container__product-regulation{
+        .title{
+        color: #2e2e2e;
+        margin-bottom: 36px;
+        }
+    .block__product.first{
+        margin-top: 0;
+    }
+    .block__product{
+        
+        margin-top: 55px;
+        position: relative;
+        .inner__product{
+            padding-left: 22px;
+        }
+        
+        &:before{
+            content: "";
+            position: absolute;
+            display: block;
+            height: 100%;
+            width: 2px;
+            background: linear-gradient(270deg, #1B7F93 0%, #1437DC 100%);
+        }
+        .identificator{
+            background: -webkit-linear-gradient(270deg, #1B7F93 0%, #1437DC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+            font-size: 30px;
+            margin-bottom: 13px;
+        }
+        .info{
+            color: #2E2E2E;
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 23px;
+        }
+        .main-info{
+            max-width: 590px;
+            line-height: 23px;
+            span{
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
 }
