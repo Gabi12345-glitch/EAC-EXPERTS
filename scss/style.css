@@ -53,8 +53,8 @@ button {
 }
 
 .container__eac {
-  padding-top: 50px;
-  padding-bottom: 22px;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 .container__eac .block__logo {
@@ -63,7 +63,7 @@ button {
 
 .container__eac .container__all {
   padding-left: 70px;
-  margin-top: 95px;
+  margin-top: 23px;
 }
 
 .container__eac .container__all .container__form {
@@ -96,7 +96,7 @@ button {
 }
 
 .container__eac .container__all .container__form .col__form .block__form {
-  margin-top: 44px;
+  margin-top: 35px;
   max-width: 580px;
   background: #ffff;
   -webkit-box-shadow: 0px 4px 40px rgba(27, 125, 147, 0.1);
@@ -104,7 +104,7 @@ button {
 }
 
 .container__eac .container__all .container__form .col__form .block__form form {
-  padding: 73px 84px 29px 96px;
+  padding: 55px 84px 29px 96px;
 }
 
 .container__eac .container__all .container__form .col__form .block__form form .inner__form {
@@ -201,7 +201,7 @@ button {
       -ms-flex-align: center;
           align-items: center;
   max-width: 360px;
-  margin: 40px auto;
+  margin: 35px auto;
 }
 
 .container__eac .container__all .container__form .col__form .block__form form .inner__form .container__checkbox .col p {
@@ -217,7 +217,7 @@ button {
 }
 
 .container__eac .container__all .container__form .col__form .block__form form .inner__form .block__or {
-  margin: 25px 0 25px 0;
+  margin: 20px 0 20px 0;
   text-align: center;
 }
 
@@ -288,7 +288,7 @@ button {
 
 .container__eac .container__all .copyright {
   padding-right: 70px;
-  margin-top: 45px;
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,7 +349,7 @@ button {
 }
 
 .block__form.regulation {
-  margin-bottom: 290px;
+  margin-bottom: 190px;
   max-width: 1700px !important;
   padding-top: 100px;
   padding-bottom: 50px;
