@@ -12,6 +12,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
 button{
     cursor: pointer;
@@ -31,12 +32,23 @@ button{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    border: none;
+    border: 1px solid transparent;
+    transition: .5s ease-in-out;
     span{
         font-size: 24px;
         color: white;
     }
 }
+.btn__register:hover{
+    border: 1px solid #1B7F93 ;
+    
+    transition: .5s ease-in-out;
+    background: -webkit-linear-gradient(270deg, #1B7F93 30%, #1437DC 100%);
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+    
+}
+
 .wrapper__top-form--inner{
                         display: none;
                     }
@@ -59,7 +71,7 @@ button{
                     font-weight: 300;
                     
                     color:rgba(20, 55, 220, 1);
-                    font-size: 3.5vw;
+                    font-size: 55px;
                     span{
                         background: -webkit-linear-gradient(270deg, #1B7F93 30%, #1437DC 100%);
                           -webkit-background-clip: text;
@@ -85,14 +97,15 @@ button{
                     
                     form{
                         
-                        padding: 55px 84px 29px 96px;
+                        padding: 45px 84px 29px 96px;
                         .inner__form{
                             max-width: 390px;
                             margin: 0 auto;
                             .row.row__first{
                                 margin-top: 0;
                                 input{
-                                    
+                                    color: #2E2E2E;
+                                    font-size: 18px;
                                     margin-left: 10px;
                                     &:nth-child(1){
                                         margin-left: 0;
@@ -214,22 +227,24 @@ button{
             &:nth-child(2){
                 
                 
-                svg{
+                img{
                     
                     max-width: 100%;
                 }
             }
         }
         .col__form.hand{
-            svg{
+            img{
                 position: absolute;
-                right: 0;
+                right: 0px;
+                bottom: 75px;
                 z-index: -1;
+                // bottom: 0px;
             }
         }
     }
     .copyright{
-        
+        opacity: 0.4;
         padding-right: 70px;
         margin-top: 40px;
         display: flex;
@@ -253,7 +268,7 @@ button{
                     box-shadow: 0px 4px 40px rgba(27, 125, 147, 0.1);
     .finish__form{
     padding-top: 108px;
-    padding-bottom: 210px;
+    padding-bottom: 200px;
     .img__heart{
         margin-bottom: 25px;
         text-align: center;
@@ -295,22 +310,24 @@ button{
         padding-right: 0px!important;
     }
 .block__form.regulation{
-    margin-bottom: 190px;
+    margin-bottom: 60px;
     max-width: 1700px!important;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
     form.regulation{
         padding: 0px 87px 0 87px!important;
         
         .wrapper{
             margin: auto;
-            max-width: 530px;
+            max-width: 585px;
             input{
                 padding-top: 80px;
-                max-width: 530px;
+                max-width: 100%;
             }
         }
         input{
+            color: #2E2E2E;
+            font-size: 24px;
             padding: 20px 0 20px 0;
             width: 100%;
            outline: none;
@@ -335,7 +352,7 @@ button{
 
 // regulation-finish
 .block__form.regulation.finish{
-    margin-bottom: 64px;
+    margin-bottom: 50px;
     
 }
 .container__product-regulation{
@@ -348,7 +365,7 @@ button{
     }
     .block__product{
         
-        margin-top: 55px;
+        margin-top: 30px;
         position: relative;
         .inner__product{
             padding-left: 22px;
@@ -377,8 +394,10 @@ button{
             margin-bottom: 23px;
         }
         .main-info{
-            max-width: 590px;
-            line-height: 23px;
+            color: #2E2E2E;
+            font-size: 24px;
+            max-width: 890px;
+            line-height: 28px;
             span{
                 color: black;
                 font-weight: bold;
