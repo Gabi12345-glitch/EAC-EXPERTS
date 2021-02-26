@@ -78,6 +78,7 @@ button {
 }
 
 .container__eac .container__all .container__form {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,7 +116,7 @@ button {
 }
 
 .container__eac .container__all .container__form .col__form .block__form form {
-  padding: 45px 84px 29px 96px;
+  padding: 40px 84px 29px 96px;
 }
 
 .container__eac .container__all .container__form .col__form .block__form form .inner__form {
@@ -296,14 +297,13 @@ button {
 .container__eac .container__all .container__form .col__form.hand img {
   position: absolute;
   right: 0px;
-  bottom: 75px;
   z-index: -1;
 }
 
 .container__eac .container__all .copyright {
   opacity: 0.4;
   padding-right: 70px;
-  margin-top: 40px;
+  margin-top: 63px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -364,7 +364,7 @@ button {
 }
 
 .block__form.regulation {
-  margin-bottom: 60px;
+  margin-bottom: 260px;
   max-width: 1700px !important;
   padding-top: 50px;
   padding-bottom: 50px;

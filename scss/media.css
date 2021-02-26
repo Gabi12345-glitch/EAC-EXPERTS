@@ -5,6 +5,7 @@
   .container__eac .container__all .container__form .col__form:nth-child(2) img {
     width: 700px;
     right: -100px !important;
+    bottom: 0px;
   }
   .container__eac .container__all .container__form .col__form.hand img {
     right: -70px;
