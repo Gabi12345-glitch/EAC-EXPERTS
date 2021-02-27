@@ -85,6 +85,7 @@
     width: 100%;
   }
   .container__eac .container__all .container__form .col__form.hand img {
+    right: 0px !important;
     margin: 0 auto;
     top: 20px;
     right: 0;
