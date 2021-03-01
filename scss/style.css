@@ -90,7 +90,7 @@ button {
 .container__eac .container__all .container__form .col__form h2 {
   font-weight: 300;
   color: #1437dc;
-  font-size: 55px;
+  font-size: 45px;
 }
 
 .container__eac .container__all .container__form .col__form h2 span {
@@ -103,7 +103,7 @@ button {
 .container__eac .container__all .container__form .col__form p {
   margin-top: 3px;
   max-width: 600px;
-  font-size: 24px;
+  font-size: 23px;
   color: #2E2E2E;
 }
 
@@ -171,6 +171,7 @@ button {
 }
 
 .container__eac .container__all .container__form .col__form .block__form form .inner__form .row input {
+  font-size: 18px;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 13px;
@@ -291,19 +292,20 @@ button {
 }
 
 .container__eac .container__all .container__form .col__form:nth-child(2) img {
-  max-width: 100%;
+  max-width: 750px;
 }
 
 .container__eac .container__all .container__form .col__form.hand img {
   position: absolute;
   right: 0px;
+  top: 13%;
   z-index: -1;
 }
 
 .container__eac .container__all .copyright {
   opacity: 0.4;
   padding-right: 70px;
-  margin-top: 63px;
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,6 +318,10 @@ button {
   color: #2E2E2E;
 }
 
+.container__eac .container__all .copyright__form-finish {
+  margin-top: 120px;
+}
+
 .block__form.block__form-finish {
   margin-top: 44px;
   max-width: 580px;
@@ -325,8 +331,8 @@ button {
 }
 
 .block__form.block__form-finish .finish__form {
-  padding-top: 108px;
-  padding-bottom: 200px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .block__form.block__form-finish .finish__form .img__heart {

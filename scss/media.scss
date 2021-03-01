@@ -15,9 +15,12 @@
     .container__eac .container__all .container__form .col__form:nth-child(2){
         // top: 20px;
         img{
-            width: 700px;
+            top: 16%;
+            // width: 700px;
             right: -100px!important;
             bottom: 0px;
+            max-width: 650px;
+
         }
     }
     .container__eac .container__all .container__form .col__form.hand img{
@@ -25,6 +28,12 @@
     }
     .container__product-regulation .block__product .main-info{
         font-size: 2vw;
+    }
+    .container__eac .container__all .container__form .col__form .block__form{
+        margin-bottom: 70px;
+    }
+    .container__eac .container__all .copyright{
+        margin-top: -10px;
     }
 
     
@@ -162,6 +171,9 @@
         max-width: 790px;
     }
     // regulation
+    .container__eac .container__all .copyright{
+        margin-top: 50px;
+    }
 }
 @media screen and (max-width: 600px){
     .container__eac .container__all .container__form .col__form h2{

@@ -3,15 +3,22 @@
     overflow-x: hidden;
   }
   .container__eac .container__all .container__form .col__form:nth-child(2) img {
-    width: 700px;
+    top: 16%;
     right: -100px !important;
     bottom: 0px;
+    max-width: 650px;
   }
   .container__eac .container__all .container__form .col__form.hand img {
     right: -70px;
   }
   .container__product-regulation .block__product .main-info {
     font-size: 2vw;
+  }
+  .container__eac .container__all .container__form .col__form .block__form {
+    margin-bottom: 70px;
+  }
+  .container__eac .container__all .copyright {
+    margin-top: -10px;
   }
 }
 
@@ -139,6 +146,9 @@
   }
   .container__product-regulation .block__product .main-info {
     max-width: 790px;
+  }
+  .container__eac .container__all .copyright {
+    margin-top: 50px;
   }
 }
 
